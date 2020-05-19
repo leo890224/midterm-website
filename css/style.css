@@ -40,16 +40,16 @@ body{
     html{
         font-size: 18px !important;
     }
-    .bugatti-title{
+    .main-title{
+        font-size: 2.5rem !important; 
+        line-height: 70% !important;
+    }
+    .title{
         font-size: 2rem !important;
         line-height: 90% !important;
     }
-    .bugatti-content{
+    .content{
         font-size: 1.5rem !important;
-    }
-    .lambor-title{
-        font-size: 1.6rem !important;
-        line-height: 100% !important;
     }
 
     .reserve{
@@ -97,9 +97,24 @@ body{
     html{
         font-size: 16px !important;
     }
+    .main-title{
+        line-height: 60% !important;
+    }
     .title{
-        font-size: 2rem !important;
-        line-height: 80% !important;
+        font-size: 1.7rem !important;
+    }
+}
+
+@media(max-width: 575px){
+    html{
+        font-size: 14px !important;
+    }
+    .main-title{
+        font-size: 1.7rem !important;
+        line-height: 90% !important;
+    }
+    .title{
+        font-size: 1.7rem !important;
     }
 }
 
